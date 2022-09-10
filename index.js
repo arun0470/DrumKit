@@ -5,7 +5,7 @@ for(var i=0;i<document.querySelectorAll(".drum").length;i++){
   document.querySelectorAll(".drum")[i].addEventListener("click",function (){
     var innerhtml = this.innerHTML;
     makeSound(innerhtml);
-    buttonAnimation(innerhtml);})
+    buttonAnimation(innerhtml);});
 }
 
 document.addEventListener("keypress",function(event){

@@ -44,7 +44,7 @@ function makeSound(eventkey){
     var kickbass = new Audio("sounds/kick-bass.mp3");
     kickbass.play();
     break;
-    default:alert("are puka kallu dengginiya kanapaduthunna letters nokku 😅😅😅");
+    default:console.log();
 
   }
 }
